@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pseudo-class-test</title>
+	<style>
+		ul
+		{
+		list-style: none;
+		text-align: center;
+		}
+		a:visited,a:link
+		{
+			text-decoration: none;
+			color: blue;
+			display: block;
+			border: 2px solid black;
+			margin-bottom: 2px;
+		}
+		a:hover
+		{
+			text-decoration:none;
+			background-color: red;
+			margin-bottom: 2px;
+
+		}
+		body li:nth-child(odd)
+		{
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+<ul>
+	<li><a href="https://www.youtube.com/watch?v=YQHsXMglC9A" target="_blank">hello</a></li>
+	<li><a href="https://www.youtube.com/watch?v=-gUZHwcda2o" target="_blank">konichiwa</a></li>
+	<li><a href="https://www.youtube.com/watch?v=Lt1u6N7lueM" target="_blank">bonjour</a></li>
+</ul>
+</body>
+</html>
